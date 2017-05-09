@@ -1,0 +1,20 @@
+{
+  "name": "codeTest",
+  "version": "1.0.0",
+  "description": "Install the dependencies, then run 'npm test'",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Raven Cole <ravenscole@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
+}
